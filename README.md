@@ -1,9 +1,5 @@
 # HAR-using-Sparse-Weighted-Temporal-Attention
 
-A B.Tech project by Koppolu Charan Teja (Roll No: 120AD0005) submitted to the Department of Computer Science and Engineering at the IIITDM Kurnool. Guide: Dr. Korra Sathya Babu, Associate Professor, Dept. of CSE, IIITDM Kurnool.
-
-***
-
 ## Abstract
 
 Human Activity Recognition (HAR) is a crucial field for enabling machines to understand human actions from sensor data. This project introduces a **Sparse Weighted Temporal Attention Mechanism** to enhance HAR, particularly for data from drone cameras. This technique allows the model to focus on the most important moments in a sequence of actions, which improves the accuracy and efficiency of the recognition process. By integrating this mechanism, the system can better interpret human actions, leading to more precise and reliable results for applications in healthcare, surveillance, and human-computer interaction.
