@@ -27,7 +27,7 @@ The workflow is as follows:
 | :--- | :--- | :--- |
 | **Temporal Segment Network (TSN)** | Divides video into segments and sparsely samples frames to model temporal structure. | ![Temporal Segment Network Diagram](Images/Untitled Diagram.drawio (1).png) <br> * Temporal Segment Network* |
 | **SWTA Module** | Fuses optical flow with RGB frames to focus on key temporal information. | ![SWTA Module Diagram](Images/swta.png) <br> *Sparse weighted Temporal Attention (SWTA) Module* |
-| **Human Detection (YOLOv8)** | Accurately detects and crops persons in each frame. | ![Human Detection and Cropping](Images/yolo.drawio.pn) <br> * Human Detection and cropping using YOLOv8* |
+| **Human Detection (YOLOv8)** | Accurately detects and crops persons in each frame. | ![Human Detection and Cropping](Images/yolo.drawio.png) <br> * Human Detection and cropping using YOLOv8* |
 | **Backbone Network (InceptionV3)**| Extracts intricate features from the processed frames. | ![Inception Network Architecture](Images/inceptionv3onc--oview_vjAbOfw.png) <br> * Overview of Inception network* |
 
 ***
