@@ -10,7 +10,7 @@ Human Activity Recognition (HAR) is a crucial field for enabling machines to und
 
 The core of this project is a novel approach that integrates a Sparse Weighted Temporal Attention (SWTA) module with a robust backbone network to classify human activities from video frames.
 
-![Methodology Overview](https://i.imgur.com/P5e6B2p.png)
+![Methodology Overview](Images/metod.drawio.png)
 *Figure 3.1: Overview of Methodology*
 
 The workflow is as follows:
