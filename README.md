@@ -37,12 +37,10 @@ The workflow is as follows:
 The model was trained and evaluated on two challenging drone-based video datasets.
 
 1.  **Drone Action Dataset**: A total of 13 actions performed by 10 subjects, captured from a drone in hovering and following modes.
-    ![Drone Action Dataset Examples](https://i.imgur.com/4z82hKk.png)
-    *Figure 2.1: Drone Action Dataset*
+    ![Drone Action Dataset Examples](Images/da.png)
+    *Drone Action Dataset*
 
 2.  **Okutama Action Dataset**: Features 43 video sequences with 12 action categories, recorded by two drones at varying heights and angles.
-    ![Okutama Action Dataset Examples](https://i.imgur.com/B9BwA5K.png)
-    *Figure 2.2: Sample frames of Okutam-Action dataset*
 
 ### Dataset Comparison
 
@@ -58,7 +56,7 @@ The model was trained and evaluated on two challenging drone-based video dataset
 
 ***
 
-## 📊 Results and Performance
+## Results and Performance
 
 The model was trained for 50 epochs with a batch size of 32, using the Adam optimizer and Categorical Crossentropy loss function.
 
@@ -68,8 +66,8 @@ The model achieved a final **training accuracy of 85.01%** and a **validation ac
 
 | Training Accuracy & Loss Plots |
 | :---: |
-| ![Model Training and Validation Accuracy Graph](https://i.imgur.com/U2FfHll.png) <br> *Figure 4.1: Model Accuracy variations* |
-| ![Model Training and Validation Loss Graph](https://i.imgur.com/JbW7b4s.png) <br> *Figure 4.2: Model Loss variations*|
+| ![Model Training and Validation Accuracy Graph](Images/Training_and_validation_accuracy.png) <br> *Model Accuracy variations* |
+| ![Model Training and Validation Loss Graph](Images/Training_and_validation_Loss.png) <br> *Model Loss variations*|
 
 ### Test Set Evaluation
 
@@ -77,7 +75,7 @@ On the test set, the model demonstrated strong performance with an **overall acc
 
 | Confusion Matrix | Classification Report |
 | :---: | :---: |
-| ![Confusion Matrix for Test Results](https://i.imgur.com/83u6G6U.png) <br> *Figure 4.3: Confusion matrix* | ![Classification Report for Test Results](https://i.imgur.com/97y0uC6.png) <br> *Figure 4.4: Classification report* |
+| ![Confusion Matrix for Test Results](Images/cf_matrix.png) <br> *Confusion matrix* | ![Classification Report for Test Results](Images/Screenshot_2024.png) <br> *Classification report* |
 
 The classes **'running'** and **'stabbing'** were perfectly classified with a precision and recall of 1.00. Actions like **'clapping'** (recall 0.46) and **'walking'** (recall 0.58) proved more challenging.
 
@@ -89,18 +87,18 @@ Here are some sample predictions from the model on test videos.
 
 | Correct Predictions | Incorrect Prediction |
 | :---: | :---: |
-| ![Predicted Kicking, Actual Kicking](https://i.imgur.com/G5rR88h.png) <br> **Predicted: Kicking, Actual: Kicking** | ![Predicted Hitting, Actual Running](https://i.imgur.com/Gk9z05l.png) <br> **Predicted: Hitting, Actual: Running** |
-| ![Predicted Punching, Actual Punching](https://i.imgur.com/C7Q2D6B.png) <br> **Predicted: Punching, Actual: Punching** | ![Predicted Walking, Actual Stabbing](https://i.imgur.com/c43j0i8.png) <br> **Predicted: Walking, Actual: Stabbing** |
+| ![Predicted Kicking, Actual Kicking](Images/kc1.png) <br> **Predicted: Kicking, Actual: Kicking** | ![Predicted Hitting, Actual Running](Images/rn1.png) <br> **Predicted: Hitting, Actual: Running** |
+| ![Predicted Punching, Actual Punching](Images/pun1.png) <br> **Predicted: Punching, Actual: Punching** | ![Predicted Walking, Actual Stabbing](Images/stb1.png) <br> **Predicted: Walking, Actual: Stabbing** |
 
 **Okutama Action Dataset:**
 
 | Correct Prediction | Incorrect Prediction |
 | :---: | :---: |
-| ![Predicted Walking, Actual Walking](https://i.imgur.com/yvC9sYV.png) <br> **Predicted: Walking, Actual: Walking** | ![Predicted kicking, Actual Walking](https://i.imgur.com/b6b5M6o.png) <br> **Predicted: kicking, Actual: Walking** |
+| ![Predicted Walking, Actual Walking](Images/w2.png) <br> **Predicted: Walking, Actual: Walking** | ![Predicted kicking, Actual Walking](Images/p2.png) <br> **Predicted: kicking, Actual: Walking** |
 
 ***
 
-## 🛠️ Libraries and Modules Used
+## Libraries and Modules Used
 
 This project relies on several key Python libraries:
 -   **TensorFlow** & **Keras**: For building and training the deep learning model.
