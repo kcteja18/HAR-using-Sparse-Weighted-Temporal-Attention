@@ -107,3 +107,15 @@ This project relies on several key Python libraries:
 -   **Pandas**: For manipulating and analyzing data.
 -   **Matplotlib**: For creating visualizations and plots.
 -   **SciPy**: Used to process MATLAB annotation files for the Drone Action dataset.
+
+***
+## References
+
+1.  A. G. Perera, Y. W. Law, and J. Chahl, “Drone-action: An outdoor recorded drone video dataset for action recognition,” Drones, vol. 3, no. 4, 2019. [Online]. Available: https://www.mdpi.com/2504-446X/3/4/82
+2.  M. Barekatain, M. Martí, H.-F. Shih, S. Murray, K. Nakayama, Y. Matsuo, and H. Prendinger, “Okutama-action: An aerial view video dataset for concurrent human action detection,” 2017.
+3.  N. A. Othman and I. Aydin, “Development of a novel lightweight cnn model for classification of human actions in uav-captured videos,” Drones, vol. 7, no. 3, 2023.
+4.  S. K. Yadav, P. Agrawal, K. Tiwari, E. Adeli, H. M. Pandey, and S. A. Akbar, “Wtm: Weighted temporal attention module for group activity recognition,” in 2022 International Joint Conference on Neural Networks (IJCNN), 2022, pp. 1–8.
+5.  S. K. Yadav, A. Luthra, E. Pahwa, K. Tiwari, H. Rathore, H. M. Pandey, and P. Corcoran, “Droneattention: Sparse weighted temporal attention for drone-camera based activity recognition,” Neural Networks, vol. 159, pp. 57–69, 2023.
+6.  L. Wang, Y. Xiong, Z. Wang, Y. Qiao, D. Lin, X. Tang, and L. Van Gool, “Temporal segment networks for action recognition in videos,” IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 41, no. 11, pp. 2740–2755, 2019.
+7.  T. Ahmad, J. Wu, H. S. Alwageed, F. Khan, J. Khan, and Y. Lee, “Human activity recognition based on deep-temporal learning using convolution neural networks features and bidirectional gated recurrent unit with features selection,” IEEE Access, vol. 11, pp. 33148–33159, 2023.
+8.  W. Sultani and M. Shah, “Human action recognition in drone videos using a few aerial training examples,” Computer Vision and Image Understanding, vol. 206, p. 103186, 2021.
